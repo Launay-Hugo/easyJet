@@ -1,0 +1,15 @@
+/* style.css */
+@import "/EasyJet-LeReacteur/assets/css/reset.css";
+@import"/EasyJet-LeReacteur/assets/css/stylesheet.css";
+@import"/EasyJet-LeReacteur/assets/css/global.css";
+@import"/EasyJet-LeReacteur/assets/css/header.css";
+@import"/EasyJet-LeReacteur/assets/css/beach-section.css";
+@import"/EasyJet-LeReacteur/assets/css/worldwide-default.css";
+@import"/EasyJet-LeReacteur/assets/css/carousel-top.css";
+@import"/EasyJet-LeReacteur/assets/css/triple-img.css";
+@import"/EasyJet-LeReacteur/assets/css/carousel-bot.css";
+@import"/EasyJet-LeReacteur/assets/css/footer.css";
+@import"/EasyJet-LeReacteur/assets/css/1115px.css";
+@import "/EasyJet-LeReacteur/assets/css/960.css"(max-width: 960px);
+@import "/EasyJet-LeReacteur/assets/css/670px.css" (max-width: 670px);
+

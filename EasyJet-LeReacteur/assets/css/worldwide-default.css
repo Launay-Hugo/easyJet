@@ -1,0 +1,47 @@
+/* worldwide */
+.default {
+    margin-bottom: 20px; 
+    box-shadow: 0 0 5px grey;
+    display:flex;
+    border-radius: 10px;
+    overflow: hidden;
+ }
+ .default > div {
+     flex: 1;
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     
+ }
+ .default p {
+     font-size: 13px;
+     margin-bottom: 10px ;
+ }
+ .default button{
+     background-color: #FF7B00;
+     border: none;
+     padding: 8px 30px;
+     color: white;
+     border-radius: 2px;
+     align-self: flex-end;
+     
+ }
+ 
+ /* worldwide-img */
+ .worldwide-img img {
+     width: 640px;
+     height: 250px;
+     object-fit: cover;
+     object-position: right top;
+     display: block;
+ }
+ 
+ /* bretagne */
+ .bretagne img {
+     width: 640px;
+     height: 305px;
+     object-fit: cover;
+     object-position: right top;
+ }
+ 

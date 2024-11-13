@@ -1,0 +1,91 @@
+* {box-sizing: border-box;}
+
+
+.menu {
+    border:1px solid #ccc;
+    height: 460px;
+    width: 300px;
+    font-size: 13px;
+    padding: 12px;
+    box-shadow:0 0 5px grey;
+    border-radius: 2%;
+    background-color: white;
+    
+} 
+.checkbox {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.checkbox input{
+    height: 30px;
+    width: 30px;
+}
+.destination {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px
+}
+.calendar {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.line {
+    width: 180px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto
+}
+.destination input{
+    height: 34px;
+    border: none;
+}
+.dates {
+  border: 1px solid #ccc;  
+  padding: 5px;
+  margin-bottom: 10px;
+  color: #f70
+}
+.dates > div {
+   padding-bottom: 7px ;
+}
+.numbers > div {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.numbers button{
+    background-color: unset;
+    border: none;
+    font-size: 20px;
+    
+}
+.numbers > div span {
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    width: 30px;
+    text-align: center;
+ 
+}
+.counter {
+    display: flex;
+    align-items: center;
+}
+    
+.vols button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f70;
+    border: none;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.bottom {
+    color:#f70
+}
+.bottom p:first-child{
+    margin-bottom: 10px;
+}

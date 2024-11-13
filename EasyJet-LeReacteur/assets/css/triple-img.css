@@ -1,0 +1,36 @@
+/* triple img */
+.triple-img >div {
+    position: relative;
+}
+.triple-img-absolute {
+    position: absolute;
+    top: 0px;   
+    height: 220px;
+    width: 285px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.triple-img-absolute h4{
+    font-size: 30px;
+}
+.triple-img-absolute p{
+    font-size: 20px;
+}
+
+.triple-img{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.triple-img img {
+    display: block;
+    height: 220px;
+    width: 280px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 5px grey;
+}
