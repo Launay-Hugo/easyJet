@@ -1,0 +1,15 @@
+/* style.css */
+@import "/assets/css/reset.css";
+@import"/assets/css/stylesheet.css";
+@import"/assets/css/global.css";
+@import"/assets/css/header.css";
+@import"/assets/css/beach-section.css";
+@import"/assets/css/worldwide-default.css";
+@import"/assets/css/carousel-top.css";
+@import"/assets/css/triple-img.css";
+@import"/assets/css/carousel-bot.css";
+@import"/assets/css/footer.css";
+@import"/assets/css/1115px.css";
+@import "/assets/css/960.css"(max-width: 960px);
+@import "/assets/css/670px.css" (max-width: 670px);
+@import"/assets/css/1115px.css"

@@ -1,0 +1,84 @@
+/* image beach section */
+.beach-section {
+    margin-bottom: 20px;
+    position: relative;
+}
+.beach-section img { 
+width: 100%;
+height: 650px;
+object-fit: cover;
+}
+/* beach-absolute */
+.beach-absolute {
+    position: absolute;
+    top:20px;
+    height: 430px;
+    width: 100vw;
+   /* border: 1px solid red; */
+}
+    
+.bookingmenu-wrapper {
+ /* border: 1px solid green; */
+  height: 100%;  
+  display: flex;
+  justify-content: space-between;
+}
+.left-colum {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.left-colum button{
+    background-color: #FF7B00;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 2px;
+    align-self: flex-start 
+}
+.left-colum-title {
+    font-size: 50px;
+    font-family: easyJet Headline;
+}
+.left-colum >div p:nth-child(2){
+    font-size: 50px
+}
+/* beach-footer-aboslute*/
+.beach-footer-absolute{
+    position: absolute;
+    bottom: 0px;
+    height: 130px;
+    width: 100vw;
+    background-color: rgb(255, 255, 255,0.7);
+}
+.beach-footer-wrapper {
+    height: 100%;
+  /* border: 1px solid red; */
+   font-size: 13px;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.offers {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.offers button{
+    background-color: #FF7B00;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 2px;
+    align-self: flex-start;
+}
+.offer {
+   /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}

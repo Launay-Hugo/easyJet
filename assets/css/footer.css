@@ -1,0 +1,27 @@
+/* footer */
+footer {
+    background-color: #ccc;
+}
+
+
+ .footer-global {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-global p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 18px;
+}
+footer p {
+    font-weight: bold;
+}
+
+
+
+    
+
+    

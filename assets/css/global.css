@@ -1,0 +1,24 @@
+*,a,footer {
+    font-family: easyJet Rounded Book , sans-serif;
+    box-sizing: border-box;
+    scrollbar-width: none
+ }
+ 
+ .wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+ }
+ 
+ h2 {
+     font-size: 16px;
+     margin-bottom: 20px ;
+     font-weight: bold;
+ }
+ 
+ 
+ /* display for phone */
+ .phone-display {
+     display: none;
+     color: white;
+ }
+ 

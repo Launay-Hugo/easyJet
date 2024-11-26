@@ -1,0 +1,44 @@
+/* carousels*/
+.carousel-top {
+    height: 380px;
+    margin-bottom: 20px;
+   /* border: 1px solid red; */
+    display: flex;
+    overflow: scroll;
+    gap:20px;
+    
+}
+.carousel-card {
+    height: 360px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow:0 0 5px #ccc;
+}
+.carousel-card img{
+    height: 140px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.carousel-card > div {
+padding: 15px;
+flex: 1;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.carousel-card button{
+    position: absolute;
+    bottom: 15px;
+    background-color: #FF7B00;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 8px 30px;
+    border: none;
+}
